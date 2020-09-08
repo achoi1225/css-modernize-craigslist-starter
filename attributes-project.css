@@ -43,3 +43,16 @@ a {
 ul {
   padding: 0;
 }
+
+ul > li {
+  list-style: none;
+}
+
+span:hover, a:hover{
+  color: #800080;
+  font-weight: bold;
+}
+
+.page-container {
+  max-width: 1200px;
+}
