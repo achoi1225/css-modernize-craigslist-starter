@@ -100,5 +100,35 @@ ul.clfooter li{
 
 h4.ban::before {
   content: "\262E";
-  margin-right: 8px; 
+  margin-right: 8px;
+}
+
+table.cal{
+  border-collapse: collapse;
+}
+
+.cal td, .cal th {
+  border: 1px solid #333;
+  text-align: center;
+  padding: 6px 6px;
+}
+
+.cal td a {
+  color: green;
+  font-weight: bold;
+}
+
+.cal td.past {
+  color: black;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cal td.today{
+  background-color: darkviolet;
+}
+
+.cal td.today a {
+  color: white;
+  background-color: darkviolet;
 }
